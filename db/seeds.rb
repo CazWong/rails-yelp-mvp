@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+@restaurants = Restaurant.create([{ name: 'Bam Bam', address: 'Avonsleigh', category: 'italian'}, { name: 'Cafe 57', address: 'Notting Hill', category: 'french'}, { name: 'General Store', address: 'Emerald', category: 'italian'}, { name: 'Omi', address: 'Glen Waverley', category: 'japanese'}, { name: 'Cheiftans', address: 'Cockatoo', category: 'belgian'}])
+puts "seeding completed"
